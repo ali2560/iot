@@ -67,7 +67,7 @@ void loop()
             radio.openWritingPipe(rxAddr_p2);
             for(int i=0;i<2;i++){
               radio.write("ack3",sizeof("ack3"));
-              //delay(1);
+              delay(1);
             }
             break;
     }
